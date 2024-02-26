@@ -68,7 +68,7 @@ D F <BR>
 G F <BR>
 F H <BR>
 <hr>
-~~~
+```
 #import defaultdict
 from collections import defaultdict
 def dfs(graph,start,visited,path):
@@ -91,7 +91,7 @@ visited=defaultdict(bool)
 path=[]
 traversedpath=dfs(graph,start,visited,path)
 print(traversedpath)
-~~~
+```
 <h3>Sample Output</h3>
 <hr>
 ['A', 'B', 'E', 'D', 'C', 'G', 'F', 'H']
