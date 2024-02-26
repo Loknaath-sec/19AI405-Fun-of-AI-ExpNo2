@@ -69,7 +69,7 @@ G F <BR>
 F H <BR>
 
 ```
-<hr>
+
 
 #import defaultdict
 from collections import defaultdict
@@ -98,7 +98,7 @@ print(traversedpath)
 <hr>
 ['A', 'B', 'E', 'D', 'C', 'G', 'F', 'H']
 
-<hr>
+
 ```
 <hr>
 <h3>Sample Input</h3>
