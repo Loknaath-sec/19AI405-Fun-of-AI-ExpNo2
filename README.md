@@ -95,13 +95,13 @@ visited=defaultdict(bool)
 path=[]
 traversedpath=dfs(graph,start,visited,path)
 print(traversedpath)
-
+```
 <h3>Sample Output</h3>
 <hr>
 ['A', 'B', 'E', 'D', 'C', 'G', 'F', 'H']
 
 
-```
+
 <hr>
 <h3>Sample Input</h3>
 <hr>
