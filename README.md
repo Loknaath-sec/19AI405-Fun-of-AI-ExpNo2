@@ -69,9 +69,11 @@ G F <BR>
 F H <BR>
 
 ```
+Depth First Search uses STACK AND RECURSION
+Developed by: LOKNAATH.P
+Register Number: 212223240080
 
-
-#import defaultdict
+import defaultdict
 from collections import defaultdict
 def dfs(graph,start,visited,path):
     path.append(start)
@@ -87,7 +89,7 @@ for i in range(e):
     u,v=map(str,input().split())
     graph[u].append(v)
     graph[v].append(u)
-#print(graph)
+print(graph)
 start='A'
 visited=defaultdict(bool)
 path=[]
@@ -111,9 +113,11 @@ print(traversedpath)
 2 4 <BR>
 
 ```
+Depth First Search uses STACK AND RECURSION
+Developed by: LOKNAATH.P
+Register Number: 212223240080
 
-
-#import defaultdict
+import defaultdict
 from collections import defaultdict
 def dfs(graph,start,visited,path):
     path.append(start)
@@ -129,7 +133,7 @@ for i in range(e):
     u,v=map(str,input().split())
     graph[u].append(v)
     graph[v].append(u)
-#print(graph)
+print(graph)
 start='A'
 visited=defaultdict(bool)
 path=[]
